@@ -1,0 +1,19 @@
+[project]
+name = "shlomo-project"
+version = "0.1.0"
+description = "this project will be a tasks off api"
+authors = [
+    {name = "rahmo"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "requests"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
