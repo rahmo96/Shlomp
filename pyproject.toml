@@ -1,16 +1,16 @@
 [project]
-name = "shlomo-project"
+name = "tadela"
 version = "0.1.0"
-description = "this project will be a tasks off api"
+description = "project"
 authors = [
-    {name = "rahmo"}
+    {name = "rahmo96",email = "raha1996@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "fastapi",
-    "uvicorn[standard]",
-    "requests"
+    "logging (>=0.4.9.6,<0.5.0.0)",
+    "fastapi (>=0.116.1,<0.117.0)",
+    "requests (>=2.32.4,<3.0.0)"
 ]
 
 
